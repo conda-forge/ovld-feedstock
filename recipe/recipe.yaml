@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: ovld
-  version: "0.5.15"
+  version: "0.5.16"
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/ovld-${{ version }}.tar.gz
-  sha256: 36c445196c3017ad4de1d790d6b37804f11570533e567c268740aeb02dcf29a5
+  sha256: 2dae2383d1382a38cf4a743b511f925a78835fb8135384420b7325570163064a
 
 build:
   number: 0
